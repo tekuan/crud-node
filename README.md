@@ -1,12 +1,14 @@
 # A simple CRUD with Express and NodeJS
 
-GET  http://localhost:3000/users ➔ Buscar alguma informação no back-end
+GET  http://localhost:3000/users ➔ List all users
 
-POST  http://localhost:3000/users ➔ Criar alguma informação no back-end
+GET  http://localhost:3000/users/:index ➔ List a user
 
-PUT  http://localhost:3000/users/:index ➔ Editar alguma informação no back-end
+POST  http://localhost:3000/users ➔ Create a new user
 
-DELETE  http://localhost:3000/users/:index ➔ Deletar alguma informação no back-end
+PUT  http://localhost:3000/users/:index ➔ Edit a user
+
+DELETE  http://localhost:3000/users/:index ➔ Delete a user
 
 
 How to run this project:
